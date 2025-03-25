@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dream Journal</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dream Journal</h1>
+    <form id="dreamForm">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      
+      <label for="dream">Your Dream:</label>
+      <textarea id="dream" name="dream" rows="6" required></textarea>
+      
+      <button type="submit" id="saveButton">Save Dream 💾</button>
+    </form>
+    <div id="message"></div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
